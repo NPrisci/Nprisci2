@@ -1,0 +1,22 @@
+body{
+    background-image: url(cat-1044750.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+p{
+    color: aliceblue;
+    font-size: 45px;
+}
+a{
+    color: rgb(104, 102, 102);
+    font-size: 20px;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}

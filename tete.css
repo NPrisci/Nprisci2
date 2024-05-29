@@ -1,0 +1,57 @@
+body{
+    background-image: url(programming-1009134.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background
+}
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+.c1{
+    order: 2;
+    width:20px;
+    height:20px;
+    background-color: bisque;
+    -webkit-animation-name: ct-color;
+    -webkit-animation-duration: 5s;
+    -moz-animation-name: ct-color;
+    -moz-animation-duration: 5s;
+    -o-animation-name: ct-color;
+    -o-animation-duration: 5s;
+    animation-name: ct-color;
+    animation-duration: 5s;
+    
+}
+@-webkit-keyframes ct-color{
+    from {background-color: bisque;}
+    to {background-color:orange;}
+}
+@-moz-keyframes ct-color{
+    from {background-color: bisque;}
+    to {background-color:orange;}
+}
+@-o-keyframes ct-color{
+    from {background-color: bisque;}
+    to {background-color:orange;}
+}
+@keyframes ct-color{
+    from {background-color: bisque;}
+    to {background-color:orange;}
+}
+
+.c2{
+    order: 3;
+}
+.c3{
+    order: 1;
+}
+#eneam{
+    width: 75%;
+}
+h1{
+    color: aliceblue;
+    font-size: 20px;
+}

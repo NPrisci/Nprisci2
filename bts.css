@@ -1,0 +1,16 @@
+body{
+    background:-webkit-linear-gradient(120deg,blue,yellow,orange,aqua,black);
+    background: -o-linear-gradient(120deg,blue,yellow,orange,aqua,black);
+    background: -moz-linear-gradient(120deg,blue,yellow,orange,aqua,black);
+    background: linear-gradient(120deg,blue,yellow,orange,aqua,black);
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    color: rgb(114, 127, 138);
+    font-size: 20px;
+}
+a{
+    color: rgb(10, 1, 41);
+    text-decoration: none;
+}

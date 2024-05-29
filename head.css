@@ -1,0 +1,78 @@
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:first baseline;
+}
+.c1{
+    order: 2;
+}
+.c2{
+    order: 3;
+}
+.c3{
+    order: 1;
+}
+#eneam{
+    width: 60%;
+}
+#uac{
+    width: 50%;
+}
+h1{
+    font-size: 100px;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(network-4636686.jpg);
+   
+}
+h1{
+    color: bisque;
+    
+    -webkit-animation-name: ct-color;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-delay:2s ;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: ct-color;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-delay:2s ;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction: alternate;
+
+    -o-animation-name: ct-color;
+    -o-animation-duration: 2s;
+    -o-animation-timing-function: ease;
+    -o-animation-delay:2s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction: alternate;
+
+    animation-name: ct-color;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay:2s ;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+}
+@-webkit-keyframes ct-color{
+    from {color: white;}
+    to {color:blue;}
+}
+@-moz-keyframes ct-color{
+    from {color: white;}
+    to {color:blue;}
+}
+@-o-keyframes ct-color{
+    from {color: white;}
+    to {color:blue;}
+}
+@keyframes ct-color{
+    from {color: white;}
+    to {color:blue;}
+}

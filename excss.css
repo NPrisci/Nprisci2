@@ -1,0 +1,18 @@
+/*commentaire css */
+body{
+    background-color: antiquewhite;
+    font-size: smaller;
+    font-weight: 500;
+    font-style: oblique;
+    margin: 0px;
+}
+h1,h2{
+    color: rgb(234, 255, 127);
+    font-style: calc();
+}
+body{
+    background:-webkit-linear-gradient( red,orange,blue,black)
+    background:-o-linear-gradient( red,orange,blue,black)
+    background:-moz-linear-gradient( red,orange,blue,black)
+    background:linear-gradient( red,orange,blue,black)
+}
